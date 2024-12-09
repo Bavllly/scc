@@ -1,0 +1,152 @@
+body {
+    font-family: sans-serif;
+    margin: 0;  /* Reset default margin */
+    background-color: #181818; /* Dark background */
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px;
+}
+
+
+header {
+    background-color: black;
+    padding: 15px;
+}
+header .logo {
+    font-size: 2em;
+    color: gold;
+    text-decoration: none; /* Remove underline from link */
+}
+header nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align menu items horizontally */
+    justify-content: center;
+
+}
+header nav li {
+    margin: 0 10px; /* Add spacing between menu items */
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.search-login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align search and login to the right */
+    margin-top: 10px;
+}
+
+.search-login input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+}
+.search-login .login {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.breadcrumbs {
+    margin-top: 20px;
+    color: #999;
+}
+
+.breadcrumbs a {
+    color: #999;
+    text-decoration: none;
+}
+
+.movie-details .container {
+    display: flex;  /* Make container display items inline */
+    gap: 30px; /* Space between poster and info */
+}
+
+.movie-poster-area {
+    position: relative; /* To position the play button */
+}
+
+.movie-poster {
+    max-width: 300px;
+}
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center perfectly */
+    cursor: pointer;
+}
+
+.movie-info {
+    flex: 1;  /* Allow movie info to take up remaining space */
+
+}
+
+.movie-title-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.movie-info h2 {
+    margin-top: 0; /* Remove default top margin */
+}
+.actions button {
+    background-color: #FF9900; /* Orange like in the image */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.movie-meta {
+    margin-bottom: 15px;
+}
+
+.movie-meta a, .movie-meta span {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+
+
+.likes-dislikes {
+    margin-top: 20px;
+}
+
+.likes-dislikes button {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+
+
+}
+/* Add more styling as needed for footer, responsive design, etc. */
